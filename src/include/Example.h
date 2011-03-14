@@ -4,8 +4,6 @@
 #include <interfaces/DataInterface.h>
 #include <string>
 #include <vector>
-#include <net-snmp/net-snmp-config.h>
-#include <net-snmp/net-snmp-includes.h>
 #include <boost/shared_ptr.hpp>
 #include <boost/thread/thread.hpp>
 

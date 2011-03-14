@@ -1,5 +1,5 @@
 #include "include/Example.h"
-#include "core/Global.h"
+#include <core/Global.h>
 #include <iostream>
 #include <algorithm>
 #include <boost/algorithm/string.hpp>
