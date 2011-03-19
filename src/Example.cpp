@@ -2,6 +2,8 @@
 #include <core/Global.h>
 #include <iostream>
 #include <algorithm>
+#include <unistd.h>
+#include <cstdio>
 #include <boost/algorithm/string.hpp>
 
 extern "C" ModuleInterface* create()
@@ -83,7 +85,7 @@ void Example::ParseData(std::vector< std::string > data)
 
 void Example::ParsePrivmsg(std::vector< std::string > data)
 {
-	Sample();
+	;
 }
 
 void Example::Sample()
